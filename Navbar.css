@@ -26,14 +26,14 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: red;
+  background-color: blue;
   color: white;
 }
 .button {
     padding-top: 25px;
 }
 .active {
-  background-color: red;
+  background-color: blue;
   color: white;
 }
 .logo {
