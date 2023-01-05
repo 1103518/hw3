@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Navbar.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/jquery.inputmask.bundle.min.js"></script>
+<script src="mask.js"> </script>
+
+<style>
+</style>
+</head>
+<body>
+<ul>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mercedes-Benz_Logo_2010.svg/1024px-Mercedes-Benz_Logo_2010.svg.png" alt="logo" class="logo">
+  <div class="button">
+    <li><a class="active" href="question2.html">QUESTION 2</a></li>
+    <li><a href="showroom.html">SHOWROOM</a></li>
+    <li><a href="bikes.html">BIKES</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="index.html">HOME</a></li>
+  </div>
+</ul>
+<input class="numeric" type="text" maxlength="12"/> input mas number 12 digits
+<br>
+<input class="currency-page" type="text"> input mask currency is prefix $ (dollar)
+<script type="text/javascript">
+    $(".numeric").numeric();
+    $(function() {
+        $('.currency-page').inputmask({
+            alias: 'currency',
+            digits: 0,
+            rightAlign: 0,
+            placeholder: '',
+            clearMaskOnLostFocus: true
+    })
+})
+if (document.body.clientWidth > 1900) {
+      document.body.style.zoom = "140%";
+    }
+</script>
+</body>
+</html>
