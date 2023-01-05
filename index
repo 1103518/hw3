@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Navbar.css">
+<link rel="stylesheet" href="Footer.css">
+<style>
+.art {
+    float: left;
+    width: 100%;
+}
+.text {
+    color: rgb(35, 37, 37);
+    font-family: Garamond, serif;
+    text-align: center;
+    font-size: 40px;
+}
+</style>
+</head>
+<body>
+<ul>
+  <img src="assets/Honda_Power_Of_Dreams_22.svg" alt="logo" class="logo">
+  <div class="button">
+    <li><a href="question2.html">QUESTION 2</a></li>
+    <li><a href="showroom.html">SHOWROOM</a></li>
+    <li><a href="bikes.html">BIKES</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a class="active" href="index.html">HOME</a></li>
+  </div>
+</ul>
+<img src="assets/Art.jpg" alt="Art" class="art">
+<div class="text">
+    <h1>Precision Crafted Performance</h1>
+    <p>We’ve spent over 35 years of passion and devotion to it. 
+        Breaking rules and building what no one else dared, all while focusing on what truly matters: performance. 
+        The Precision EV Concept embodies our goal of putting the driver’s experience first in the next generation of electrified Acura vehicles.</p>
+</div>
+<img src="assets/PCP-Reveal_landing-FV-Hero_L.webp" alt="car" class="art">
+<div class="text">
+    <h1>The Electrification Of Premium Performance</h1>
+    <p>The Precision EV Concept ushers in a new era of electrification for Acura. 
+        Building on a legacy of performance-focused engineering and innovative design, 
+        Acura is taking an accelerated path towards an electrified future. 
+        Every aspect of the Precision EV Concept is designed for a more visceral drive. 
+        The aggressive stance alludes to performance, 
+        while the electric powertrain delivers new levels of excitement at every turn.</p>
+</div>
+<div class="footer2">
+    <table>
+      <tr>
+        <th><img src="assets/Icon/5ca483b65d32fb0b9e2ac5a3-facebook.png" alt="Facebook"><a class="foot" href="https://www.facebook.com/" target="_blank">FACEBOOK</a></th>
+        <th><img src="assets/Icon/5ca4860a5d32fb0b9e2ac5a8-instagram.png" alt="Instagram"><a class="foot" href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></th>
+        <th><img src="assets/Icon/5ca487ee5d32fb0b9e2ac5ad-linkedin.png" alt="Linkedin"><a class="foot" href="https://www.linkedin.com/" target="_blank">LINKEDIN</a></th>
+        <th><img src="assets/Icon/628cd2388a4b79293d7c99ff-tiktok.svg" alt="Tik Tok"><a class="foot" href="https://www.tiktok.com/en/" target="_blank">TIK TOK</a></th>
+      </tr>
+      <tr>
+        <th><img src="assets/Icon/628cd2a7bc2f334e875664a9-twitch.svg" alt="Twitch"><a class="foot" href="https://www.twitch.tv/" target="_blank">TWITCH</a></th>
+        <th><img src="assets/Icon/5ca487595d32fb0b9e2ac5aa-twitter.png" alt="Twitter"><a class="foot" href="https://twitter.com/?lang=en" target="_blank">TWITTER</a></th>
+        <th><img src="assets/Icon/5ca487bf5d32fb0b9e2ac5ac-youtube.png" alt="Youtube"><a class="foot" href="https://www.youtube.com/" target="_blank">YOUTUBE</a></th>
+      </tr>
+    </table>
+  </div>
+<script>
+  if (document.body.clientWidth > 1900) {
+        document.body.style.zoom = "140%";
+      }
+</script>
+</body>
+</html>
+
+
