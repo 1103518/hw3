@@ -24,19 +24,26 @@
 <br>
 <input class="currency-page" type="text"> input mask currency is prefix $ (dollar)
 <script type="text/javascript">
-    $(".numeric").numeric();
-    $(function() {
-        $('.currency-page').inputmask({
-            alias: 'currency',
-            digits: 0,
-            rightAlign: 0,
-            placeholder: '',
-            clearMaskOnLostFocus: true
-    })
-})
-if (document.body.clientWidth > 1900) {
-      document.body.style.zoom = "140%";
-    }
-</script>
+                var input = document.getElementById('credit-card-mask'),oldValue,newValue,
+                    difference = function(value1, value2) {
+                    var output = [];
+                    for(i = 0; i < value2.length; i++) {
+                        if(value1[i] !== value2[i]) {
+                        output.push(value2[i]);
+                        }
+                    }
+                    return output.join("");
+                    },
+                    keyDownHandler = function(e) {
+                    oldValue = input.value;
+                    },
+                    inputHandler = function(e) {
+                    document.getElementById("oninput-result").innerHTML = '$'+input.value;
+                    }
+                ;
+
+                input.addEventListener('keydown', keyDownHandler);
+                input.addEventListener('input', inputHandler);
+            </script>
 </body>
 </html>
