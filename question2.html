@@ -7,6 +7,78 @@
 <script src="mask.js"> </script>
 
 <style>
+  .products .box-container .box{
+    text-align: center;
+    border:var(--border);
+    padding: 2rem;
+}
+
+
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+
+.products .box-container .box .image img{
+    height: 20rem;
+}
+
+.products .box-container .box .content h3{
+    color:rgb(121, 121, 121);
+    font-size: 2.5rem;
+}
+
+/*222*/
+.products .box-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.products .box-container2 .box{
+    text-align: center;
+    border:var(--border2);
+    padding: 2rem;
+}
+
+
+.products .box-container2 .box .image{
+    padding: 2.5rem 0;
+}
+
+.products .box-container2 .box .image img{
+    height: 20rem;
+    width: 30rem;
+}
+
+.products .box-container2 .box .content h3{
+    color:rgb(121, 121, 121);
+    font-size: 2.5rem;
+}
+#credit-card-mask{
+    position: relative ;
+    top: 0;
+    left: 0;
+    width: 20%;
+    border: 1px solid #cecece;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 0.1rem 0.5rem;
+    outline: none;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+#result{
+    width: 20%;
+    background-color: white;
+    border: 1px solid #cecece;
+    border-radius: 1rem;
+}
+#oninput-result{
+    height: 1.5rem;
+    font-size: 2rem;
+    background: none;
+    
+}
 </style>
 </head>
 <body>
