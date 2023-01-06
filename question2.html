@@ -7,6 +7,58 @@
 <script src="mask.js"> </script>
 
 <style>
+ .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+.box-container .box{
+    text-align: center;
+    border:var(--border);
+    padding: 2rem;
+}
+
+
+.box-container .box .image{
+    padding: 2.5rem 0;
+}
+
+.box-container .box .image img{
+    height: 20rem;
+}
+
+.box-container .box .content h3{
+    color:rgb(121, 121, 121);
+    font-size: 2.5rem;
+}
+
+/*222*/
+.box-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.box-container2 .box{
+    text-align: center;
+    border:var(--border2);
+    padding: 2rem;
+}
+
+
+.box-container2 .box .image{
+    padding: 2.5rem 0;
+}
+
+.box-container2 .box .image img{
+    height: 20rem;
+    width: 30rem;
+}
+
+.box-container2 .box .content h3{
+    color:rgb(121, 121, 121);
+    font-size: 2.5rem;
+}
  
 #credit-card-mask{
     position: relative ;
